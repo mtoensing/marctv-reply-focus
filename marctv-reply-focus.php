@@ -3,7 +3,7 @@
 /*
   Plugin Name: MarcTV Reply Focus Fix
   Plugin URI: http://marc.tv/blog/marctv-wordpress-plugins/
-  Description: A neat simple sliding responsive image gallery with fullscreen support.
+   Description: Lost focus? You need a fix!
   Version: 1.1
   Author: MarcDK
   Author URI: https://marc.tv
