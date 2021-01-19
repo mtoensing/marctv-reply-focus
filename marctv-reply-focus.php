@@ -3,9 +3,9 @@
 /*
   Plugin Name: MarcTV Reply Focus Fix
   Plugin URI: http://marc.tv/blog/marctv-wordpress-plugins/
-   Description: Lost focus? You need a fix!
-  Version: 1.1
-  Author: MarcDK
+  Description: Lost focus? You need a fix!
+  Version: 1.2
+  Author: Marc Tönsing
   Author URI: https://marc.tv
   GitHub Plugin URI: mtoensing/marctv-reply-focus
   License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -21,7 +21,6 @@
   and redistribution with software that uses the MIT License.
 
  */
-
 
 function remove_old_comment_reply()
 {
