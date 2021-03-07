@@ -32,7 +32,7 @@ add_action('init', 'remove_old_comment_reply');
 function add_new_comment_reply()
 {
     wp_enqueue_script(
-        "comment-reply-fix", WP_PLUGIN_URL . "/marctv-reply-focus/comment-reply-fix.js", false, 1.0, true);
+        "comment-reply-fix", WP_PLUGIN_URL . "/marctv-reply-focus/comment-reply-fix.js", false, 1.1, true);
 }
 
 add_action('wp_print_styles', 'add_new_comment_reply');
