@@ -4,7 +4,7 @@
   Plugin Name: MarcTV Reply Focus Fix
   Plugin URI: http://marc.tv/blog/marctv-wordpress-plugins/
   Description: Lost focus? You need a fix!
-  Version: 1.2
+  Version: 1.3
   Author: Marc Tönsing
   Author URI: https://marc.tv
   GitHub Plugin URI: mtoensing/marctv-reply-focus
@@ -32,7 +32,7 @@ add_action('init', 'remove_old_comment_reply');
 function add_new_comment_reply()
 {
     wp_enqueue_script(
-        "comment-reply-fix", WP_PLUGIN_URL . "/marctv-reply-focus/comment-reply-fix.js", false, 1.1, true);
+        "comment-reply-fix", WP_PLUGIN_URL . "/marctv-reply-focus/comment-reply-fix.js", false, 1.3, true);
 }
 
 add_action('wp_print_styles', 'add_new_comment_reply');
